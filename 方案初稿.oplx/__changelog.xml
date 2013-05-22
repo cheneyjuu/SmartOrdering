@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<changelog xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2">
+  <version>2.0</version>
+  <task-change-set user="juchen" date="2013-05-22T00:52:11.030Z" timestamp="2013-05-22T00:52:11.030Z">
+    <change idref="t2" to="t-1" to-position="1" resolved="yes">
+      <change idref="t2" attribute="startConstraintDate" type="date" to="2013-05-27T00:00:00.000Z"/>
+      <change idref="t2" attribute="title" type="string" to="周六下午两点新天地"/>
+    </change>
+    <change idref="t3" to="t-1" to-position="2" resolved="yes">
+      <change idref="t3" attribute="startConstraintDate" type="date" to="2013-05-28T00:00:00.000Z"/>
+      <change idref="t3" attribute="title" type="string" to="周日去餐厅确定需求"/>
+    </change>
+    <change idref="t4" to="t-1" to-position="3" resolved="yes">
+      <change idref="t4" attribute="startConstraintDate" type="date" to="2013-05-29T06:45:00.000Z"/>
+      <change idref="t4" attribute="title" type="string" to="修稿"/>
+    </change>
+    <change idref="t1" attribute="title" type="string" from="任务 1" to="方案初稿" resolved="yes"/>
+    <change idref="t1" attribute="effort" type="real" from="28800" to="86400" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="juchen" date="2013-05-22T01:26:00.497Z" timestamp="2013-05-22T01:26:00.497Z">
+    <change idref="t5" to="t-1" to-position="4" resolved="yes">
+      <change idref="t5" attribute="effort" type="real" from="28800" to="78300"/>
+      <change idref="t5" attribute="startConstraintDate" type="date" to="2013-06-01T00:00:00.000Z"/>
+      <change idref="t5" attribute="title" type="string" to="定稿"/>
+    </change>
+    <change idref="t1" attribute="effort" type="real" from="86400" to="345600" resolved="yes"/>
+    <change idref="t1" attribute="internalAssignments" type="string" from="" to="1; 2; 3; 4" resolved="yes"/>
+    <change idref="t1" attribute="resourceLeveledDate" type="date" to="2013-05-22T00:00:00.000Z" resolved="yes"/>
+    <change idref="t2" attribute="startConstraintDate" type="date" from="2013-05-27T00:00:00.000Z" to="2013-05-25T00:00:00.000Z" resolved="yes"/>
+    <change idref="t2" attribute="internalAssignments" type="string" from="" to="4; 3" resolved="yes"/>
+    <change idref="t2" attribute="resourceLeveledDate" type="date" to="2013-05-25T00:00:00.000Z" resolved="yes"/>
+    <change idref="t3" attribute="startConstraintDate" type="date" from="2013-05-28T00:00:00.000Z" to="2013-05-26T00:15:00.000Z" resolved="yes"/>
+    <change idref="t3" attribute="internalAssignments" type="string" from="" to="2; 3; 4" resolved="yes"/>
+    <change idref="t3" attribute="resourceLeveledDate" type="date" to="2013-05-26T00:15:00.000Z" resolved="yes"/>
+    <change idref="t4" attribute="startConstraintDate" type="date" from="2013-05-29T06:45:00.000Z" to="2013-05-27T00:00:00.000Z" resolved="yes"/>
+    <change idref="t4" attribute="effort" type="real" from="28800" to="576000" resolved="yes"/>
+    <change idref="t4" attribute="internalAssignments" type="string" from="" to="1; 2; 3; 4" resolved="yes"/>
+    <change idref="t4" attribute="resourceLeveledDate" type="date" to="2013-05-27T00:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="juchen" date="2013-05-22T05:32:56.449Z" timestamp="2013-05-22T05:32:56.449Z">
+    <change idref="t2" from="t-1" from-position="1" resolved="yes">
+      <change idref="t2" attribute="internalAssignments" type="string" from="" to="4; 3"/>
+      <change idref="t2" attribute="resourceLeveledDate" type="date" to="2013-05-25T00:00:00.000Z"/>
+      <change idref="t2" attribute="startConstraintDate" type="date" to="2013-05-25T00:00:00.000Z"/>
+      <change idref="t2" attribute="title" type="string" to="周六下午两点新天地"/>
+    </change>
+    <change idref="t1" attribute="isGroup" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t1" attribute="isSplittableTask" type="real" from="1" resolved="yes"/>
+    <change idref="t1" attribute="taskType" type="real" from="0" to="2" resolved="yes"/>
+    <change idref="t1" attribute="resourceAssignmentType" type="real" from="0" resolved="yes"/>
+    <change idref="t1" attribute="staticCost" type="real" from="0" resolved="yes"/>
+    <change idref="t1" attribute="effort" type="real" from="345600" resolved="yes"/>
+    <change idref="t1" attribute="isSplitChunk" type="real" from="0" resolved="yes"/>
+    <change idref="t1" attribute="scheduleType" type="real" from="0" resolved="yes"/>
+    <change idref="t1" attribute="resourceLeveledDate" type="date" from="2013-05-22T00:00:00.000Z" resolved="yes"/>
+    <change idref="t1" attribute="internalAssignments" type="string" from="1; 2; 3; 4" resolved="yes"/>
+    <change idref="t1" attribute="startConstraintDate" type="date" to="2013-05-22T00:00:00.000Z" resolved="yes"/>
+    <change idref="t1" attribute="isSplitTask" type="real" from="0" resolved="yes"/>
+    <change idref="t1" attribute="internalEffortDone" type="real" from="0" resolved="yes"/>
+    <change idref="t7" to="t1" to-position="0" resolved="yes">
+      <change idref="t7" attribute="effort" type="real" from="28800" to="86400"/>
+      <change idref="t7" attribute="title" type="string" to="初稿"/>
+    </change>
+    <change idref="t10" to="t1" to-position="1" resolved="yes">
+      <change idref="t10" attribute="startConstraintDate" type="date" to="2013-05-26T00:15:00.000Z"/>
+      <change idref="t10" attribute="title" type="string" to="周六下午两点新天地"/>
+    </change>
+    <change idref="t3" from="t-1" from-position="2" to="t1" to-position="2" resolved="yes"/>
+    <change idref="t3" attribute="startConstraintDate" type="date" from="2013-05-26T00:15:00.000Z" to="2013-05-27T00:00:00.000Z" resolved="yes"/>
+    <change idref="t3" attribute="resourceLeveledDate" type="date" from="2013-05-26T00:15:00.000Z" to="2013-05-27T00:00:00.000Z" resolved="yes"/>
+    <change idref="t3" attribute="internalPrerequisitesString" type="string" to="10FS" resolved="yes"/>
+    <change idref="t4" attribute="startConstraintDate" type="date" from="2013-05-27T00:00:00.000Z" to="2013-05-28T00:00:00.000Z" resolved="yes"/>
+    <change idref="t4" attribute="resourceLeveledDate" type="date" from="2013-05-27T00:00:00.000Z" to="2013-05-28T00:00:00.000Z" resolved="yes"/>
+    <change idref="t4" attribute="internalAssignments" type="string" from="1; 2; 3; 4" to="4; 3; 2; 1" resolved="yes"/>
+    <change idref="t4" attribute="internalPrerequisitesString" type="string" to="3FS" resolved="yes"/>
+    <change idref="t5" attribute="startConstraintDate" type="date" from="2013-06-01T00:00:00.000Z" to="2013-06-02T00:15:00.000Z" resolved="yes"/>
+    <change idref="t5" attribute="internalPrerequisitesString" type="string" to="4FS" resolved="yes"/>
+  </task-change-set>
+  <resource-change-set user="juchen" date="2013-05-22T01:26:00.497Z" timestamp="2013-05-22T01:26:00.497Z">
+    <change idref="r-1" attribute="standardHoursString" type="string" from="-;-;-;-;-;-;-" to="29700,68400;28800,43200,46800,61200;28800,43200,46800,61200;28800,43200,46800,61200;28800,43200,46800,61200;28800,43200,46800,61200;28800,68400" resolved="yes"/>
+    <change idref="r2" to="r-1" to-position="1" resolved="yes">
+      <change idref="r2" attribute="name" type="string" to="陆伟"/>
+    </change>
+    <change idref="r3" to="r-1" to-position="2" resolved="yes">
+      <change idref="r3" attribute="name" type="string" to="贾浦民"/>
+    </change>
+    <change idref="r4" to="r-1" to-position="3" resolved="yes">
+      <change idref="r4" attribute="name" type="string" to="巨臣"/>
+    </change>
+    <change idref="r1" attribute="name" type="string" from="资源 1" to="汤轶洁" resolved="yes"/>
+  </resource-change-set>
+  <metadata-change-set user="juchen" date="2013-05-22T00:52:11.030Z" timestamp="2013-05-22T00:52:11.030Z">
+    <change idref="m1" attribute="scheduleGranularity" type="real" from="0" to="2" resolved="yes"/>
+    <change idref="m1" attribute="fixedDate" type="date" from="2007-01-01T20:00:00.000Z" to="2013-05-22T00:00:00.000Z" resolved="yes"/>
+    <change idref="m1" attribute="projectTitle" type="string" to="方案初稿" resolved="yes"/>
+  </metadata-change-set>
+</changelog>
